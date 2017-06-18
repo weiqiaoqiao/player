@@ -1,0 +1,158 @@
+@charset "UTF-8";
+.bigBox {
+    width: 100%;
+    height: 553px;
+    padding-top: 45px;
+    background: url("../images/bg-2.jpg") no-repeat;
+}
+/*设置标题的样式*/
+.bigBox h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 110%;
+}
+.bigBox h2 .eng {
+    display: block;
+    font-size: 20px;
+    color: #363839;
+    line-height: 100%;
+}
+.bigBox .bt {
+    width: 900px;
+    margin: 0 auto;
+}
+.bigBox h2  .spa {
+    color: #cfae69;
+}
+.wrap {
+    width: 900px;
+    height: 350px;
+    margin: 82px auto;
+}
+.cotpart {
+    position: absolute;
+    top: 100px;
+
+}
+/*介绍里面的标题*/
+.cotpart h3 {
+    position: relative;
+    font-size: 65px;
+    color: #cfae69;
+    font-weight: bold;
+    line-height: 130%;
+}
+
+/*小标题*/
+.mp-tw {
+    font-size: 15px;
+    color: #2fc3a2;
+}
+/*介绍*/
+.mp-yw {
+    width: 220px;
+    font-size: 13px;
+    color: #b7b7b7;
+}
+/*操作难度*/
+.mp-level {
+    margin:15px 0;
+}
+.mp-level b {
+    display: block;
+    color: #fff;
+    margin-bottom: 6px;
+}
+/*难度指数*/
+.mp-level i {
+    display: inline-block;
+    margin: 0 8px 0 2px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #75797c;
+    transform: rotateZ(45deg);
+}
+.mp-level .has {
+    border-color: #ff8f17;
+    background: #ff8f17;
+}
+/*图标*/
+.cotpart .pa {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    width: 38px;
+    height: 38px;
+    background: url("../images/spr-2.png");
+}
+.shendao .pa {
+    background-position: -300px -27px;
+}
+.taibai .pa {
+    background-position: -255px -27px;
+}
+.shenwei .pa {
+    background-position: -214px -27px;
+}
+.tangmen .pa {
+    background-position: -171px -27px;
+}
+.wudu .pa {
+    background-position: -127px -27px;
+}
+.tianxiang .pa {
+    background-position: -85px -27px;
+}
+.zhenwu .pa {
+    background-position: -42px -27px;
+}
+.gaibang .pa {
+    background-position: 0 -27px;
+}
+.cotpart .more {
+    margin-top: 20px;
+}
+/*查看更多*/
+.cotpart .morer {
+    display: inline-block;
+    background: #cfae69;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 15px;
+    padding: 0 15px;
+    line-height: 28px;
+}
+.item {
+    float: left;
+    position: relative;
+}
+img {
+    vertical-align: bottom;
+}
+.item-small {
+    /*display: none;*/
+}
+.item-big {
+    display: none;
+    position: relative;
+}
+.item-small {
+    width: 63px;
+    height: 350px;
+}
+.box {
+    width: 458px;
+    height: 422px;
+    position: relative;
+}
+.box .item-small {
+    display: none;
+}
+.box .item-big {
+    display: block;
+    position: absolute;
+    bottom:72px;
+}
+

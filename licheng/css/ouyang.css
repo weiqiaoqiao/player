@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*人物介绍页面，左侧导航栏*/
+.nav_left{
+    width: 180px;
+    height: 1236px;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background: url("../images/nav.jpg") no-repeat;
+}
+.main{
+    width: 180px;
+    height: 1080px;
+}
+.nr{
+    width: 180px;
+    height: 492px;
+}
+.nr a{
+    width: 180px;
+    display: block;
+    cursor: auto;
+}
+.nr .btn1{
+    height: 120px;
+    margin-bottom: 25px;
+}
+.nr .btn2{
+    height: 69px;
+}
+/*技能介绍*/
+.nr3{
+    width: 180px;
+    /*height: 368px;*/
+    margin-bottom: 20px;
+}
+.main .nr3 a{
+    display: block;
+    width: 180px;
+    height: 46px;
+}
+.main .nr3 a:hover{
+    /*border-bottom: 5px solid #cfae69;*/
+    /*height: 41px;*/
+}
+.nr3 .btn{
+    background: url("../images/spriter.png") no-repeat;
+}
+
+.nr3 .btn3{
+    background-position: 0 0;
+}
+.nr3 .btn_3{
+    background-position: 0 -92px;
+}
+.nr3 .nr2{height:200px; width:180px;}
+
+.nr3 .btn4{
+    background-position: -180px 0;
+}
+.nr3 .btn_4{
+    background-position: -180px -92px;
+}
+
+.nr3 .btn5{
+    background-position: -360px 0;
+}
+.nr3 .btn_5{
+    background-position: -360px -92px;
+}
+
+.nr3 .btn6{
+    background-position: -2px -46px;
+}
+.nr3 .btn_6{
+    background-position: -360px -137px;
+}
+.nr3 .btn7{
+    background-position: -180px -46px;
+}
+.nr3 .btn_7{
+    background-position: 0 -183px;
+}
+.nr3 .btn8{
+    background-position: -360px -46px;
+}
+.nr3 .btn_8{
+    background-position: 0 -138px;
+}
+.nr3 .btn9{
+    background-position: -180px -138px;
+}
+.nr3 .btn_9{
+    background-position: -360px -183px;
+}
+.nr3 .btn10{
+    background-position: -540px 0;
+}
+.btn_10{
+    background-position: -540px -46px;
+}
+/*二维码*/
+.nr2{
+    height: 200px;
+    width: 180px;
+    margin-top: 20px;
+}
+.nr2 img{
+    display: block;
+    margin-left: 37px;
+}
+.nr2 p{
+    text-align: center;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+}
+.nr2 a{
+    background: url("../images/btn_gw.jpg") no-repeat;
+    width: 106px;
+    height: 31px;
+    margin-left: 37px;
+    display: block;
+    cursor: auto;
+}
+/*二维码结束*/
+/*底部样式*/
+.footer_ied{
+    width: 938px;
+    margin: 0 auto;
+    color: #4f4f4f;
+    font: 12px/1.5 Tahoma,'\5b8b\4f53;
+    position:relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.wrap_logo{
+    width: 276px;
+    height: 40px;
+    float: left;
+    background:url(../images/nav-copy.png) no-repeat -1523px 0;
+}
+.wrap_logo .tg{
+    width: 167px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    line-height: 100px;
+    overflow: hidden;
+}
+.footer_ied a{
+    color: #4f4f4f;
+}
+.wrap_ied{
+    float: left;
+    padding: 2px 0 2px 11px;
+    width: 650px;
+    border-left:1px solid #4f4f4f;
+}
+.wrap_ied .flks a{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+.wrap_ied .flks i{
+    font-style: normal;
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #4f4f4f;
+    background: #4f4f4f;
+}
+.wrap_ied .ftce{
+    float: left;
+    margin-top: 2px;
+    padding-left: 4px;
+    font-size: 10px;
+}
+.wrap_ied .ftcc{
+    float: left;
+    padding-left: 6px;
+}
+.wrap_ied .ftot{
+    position: relative;
+    clear: both;
+    margin: 0 0 0 5px;
+}
+.wrap_ied .ftot i{
+    margin: 0 3px;
+    font-style: normal;
+}
+/*首页底部样式*/

@@ -1,0 +1,145 @@
+/*给i标签绝对定位*/
+.pa {
+    position: absolute;
+}
+
+/*精灵图i标签*/
+.spr-h {
+    background: url(../images/spr-h.png) no-repeat;
+}
+
+/*ul标签设置宽高以及超出隐藏*/
+.otherlists {
+    clear: both;
+    width: 100%;
+    margin: 30px 0 0;
+    overflow: hidden;
+}
+
+/*li标签*/
+.otherlists .ols {
+    position: relative;
+    width: 233px;
+    height: 105px;
+    float: left;
+    background-color: #1c1c1c;
+    margin: 0 22px 0 0;
+}
+
+/*最后一个li标签不用右外边距*/
+.otherlists .u {
+    margin-right: 0;
+}
+
+/*p标签内边距*/
+.otherlists .other-ct {
+    padding: 15px 25px 0;
+}
+
+/*strong标签设为块级元素*/
+.otherlists .other-tit {
+    display: block;
+    font-size: 22px;
+    color: #cfae69;
+    font-weight: bold;
+    line-height: 136%;
+}
+
+/*em标签设为块级元素*/
+.otherlists .other-info {
+    display: block;
+    font-size: 13px;
+    color: #aaa;
+    line-height: 115%;
+}
+
+/*第一个i标签设置精灵图大小*/
+.otherlists .sc {
+    top: 65px;
+    left: 25px;
+    width: 17px;
+    height: 17px;
+    background-position: 100% -257px;
+}
+
+/*第二个i标签设置精灵图大小*/
+.otherlists .bc {
+    top: 32px;
+    left: 159px;
+    width: 41px;
+    height: 40px;
+}
+
+/*f,s,t,u 分别代表每一个li标签的第二个i标签的*/
+.otherlists .f .bc {
+    background-position: 0 -345px;
+}
+
+.otherlists .s .bc {
+    background-position: -256px -345px;
+}
+
+.otherlists .t .bc {
+    background-position: -511px -345px;
+}
+
+.otherlists .u .bc {
+    background-position: -767px -345px;
+}
+
+/*设置a标签为块级元素以及用了设置了宽高为li标签大小背景色2个为兼容*/
+.otherlists .other-lk {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    background-color: #fff;
+    filter: alpha(opacity=0); /*IE8兼容*/
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box; /*盒子最大宽高为设定值*/
+    transition: border-bottom 0.6s ease-in-out; /*下边框渐变*/
+}
+
+.otherlists .other-lk:hover {
+    border-bottom: 5px solid #cfae69;
+}
+
+/*创建一个看不到的元素,鼠标放上去会有快速飘过盒子*/
+.ols {
+    overflow: hidden;
+}
+
+.ols:before{
+    content: " ";
+    display: block;
+    width: 200px;
+    height: 110px;
+    border-radius: 95%;
+    background: rgba(255, 255, 255, .1);
+    position: absolute;
+    top: -10px;
+    left: -210px;
+    transform: rotate(-15deg);
+    transition: all .15s ease-in-out;
+}
+
+.ols:hover:before {
+    margin-left: 300%;
+}
+
+/*给文字设置阴影,第一个为渐变*/
+.ols {
+    transition: all .6s ease-in-out;
+}
+
+.ols:hover {
+    text-shadow:
+        /*0 0 10px rgba(255, 255, 255, .8), 0 0 50px rgba(255, 255, 255, .7), 0 0 75px rgba(255, 255, 255, .6), 0 0 77px rgba(255, 255, 255, .5), 0 0 78px rgba(255, 255, 255, .4), 0 0 79px rgba(255, 255, 255, .3), 0 0 80px rgba(255, 255, 255, .2), 0 0 85px rgba(255, 255, 255, .1), 0 0 5px rgba(255, 255, 255, .1)*/
+    1px -2px 4px rgba(255, 255, 48, .1),
+    1px -5px 6px rgba(255, 223, 43, .2),
+    -1px -8px 11px rgba(255, 128, 0, .4),
+    1px -12px 18px rgba(255, 32, 0, .8)
+}

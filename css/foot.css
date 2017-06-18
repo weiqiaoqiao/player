@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.footer_ied {
+    margin: 0 auto;
+    padding: 35px 0 45px;
+    width: 938px;
+    color: #4f4f4f;
+    font: 12px/1.5 Tahoma, '\5b8b\4f53';
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.footer_ied a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.footer_ied a:hover {
+    text-decoration: underline;
+}
+
+.wrap_logo {
+    float: left;
+    width: 276px;
+    height: 40px;
+    background-image: url(../images/nav-copy.png);
+    background-repeat: no-repeat;
+    background-position: -1523px 0;
+}
+
+.wrap_logo .tg {
+    float: left;
+    width: 167px;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.wrap_ied {
+    float: left;
+    padding: 2px 0 2px 11px;
+    width: 650px;
+    border-left: 1px solid #4f4f4f;
+}
+
+.wrap_ied .flks a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+    *margin: 0 3px;
+    _margin: 0 4px;
+}
+
+.wrap_ied .flks i {
+    font-style: normal;
+    display: inline-block;
+    width: 1px;
+    height: 6px;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #4f4f4f;
+    background: #4f4f4f;
+}
+
+.wrap_ied .ftce {
+    float: left;
+    margin-top: 2px;
+    padding-left: 4px;
+    font-size: 10px;
+}
+
+.wrap_ied .ftcc {
+    float: right;
+    padding-right: 6px;
+}
+
+.wrap_ied .ftot {
+    position: relative;
+    clear: both;
+    margin: 0 0 0 5px;
+}
+
+.wrap_ied .ftot i {
+    margin: 0 3px;
+}
+
+.wrap_ied .baqz {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 25px;
+    text-indent: -9999px;
+    background-position: -1474px 0;
+}

@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/*全新内容的开始*/
+.part h2 {
+    margin: 0 0 50px;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+.part .container {
+    padding: 50px 0 0;
+}
+
+.feat {
+    background: url(../images/bg2-20160419.jpg) no-repeat 50% 0;
+}
+
+.feat .container {
+    height: 464px;
+}
+
+.feat h2 .eng {
+    color: #dfe5e4;
+}
+.feat .container s{
+    color: #01154E;
+    text-decoration: none;
+
+}
+
+.feat h2 .spc-color {
+    color: #02b8a9;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.part .container {
+    padding: 50px 0 0;
+}
+
+.head .container {
+    height: 1125px;
+}
+
+.part h2 .eng {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: tahoma, helvetica, arial, sans-serif;
+    line-height: 100%;
+}
+
+.feat h2 .eng {
+    color: #dfe5e4;
+}
+
+/*.feat h2 .spc-color {*/
+    /*color: #2fc3a3;*/
+/*}*/
+
+.reclist {
+    width: 100%;
+    background: url(../images/shendao.jpg) no-repeat 50% 0;
+    overflow: hidden;
+}
+
+.reclist .rls {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 291px;
+    overflow: hidden;
+}
+
+.reclist .rec-ico, .reclist .rec-ico img, .reclist .rec-btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.reclist .rec-ico {
+    display: none;
+    background: #000;
+    overflow: hidden;
+}
+
+.reclist h3 {
+    width: 100%;
+    left: 0;
+    top: 130px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.reclist .view {
+    left: 50%;
+    top: 200px;
+    width: 80px;
+    line-height: 24px;
+    margin: 0 0 0 -40px;
+    background: #3ed2b2;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 12px;
+    z-index: 2;
+}
+
+.reclist .bc {
+    top: 65px;
+    left: 50%;
+    width: 54px;
+    height: 54px;
+    margin: 0 0 0 -27px;
+    z-index: 2;
+}
+
+.reclist .infoem {
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 162px;
+    color: #fff;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.reclist .rec-btn {
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+    z-index: 3;
+}
+
+.reclist .gbg {
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 0;
+    border-radius: 50%;
+    padding: 0 0 200%;
+    margin: -100% 0 0 -100%;
+    z-index: 1;
+    transform: scale(0);
+    opacity: 0;
+    transition: all .3s ease-out 0s;
+    background: #3ed2b2  ;
+}
+
+/*.reclist .rls:hover .gbg{transform:scale(1);opacity:.9;}*/
+.reclist .rls:hover .view {
+    background: #181818;
+}
+
+.reclist .ft2 .bc {
+    background-position: -54px 0;
+}
+
+.reclist .ft3 .bc {
+    background-position: -108px 0;
+}
+
+.reclist .ft4 .bc {
+    background-position: -162px 0;
+}
+
+.reclist .ft5 .bc {
+    background-position: -216px 0;
+}
+
+.reclist .ft1 .rec-btn {
+    background-position: 100px 0;
+}
+
+.reclist .ft2 .rec-btn {
+    background-position: -235px 0;
+}
+
+.reclist .ft3 .rec-btn {
+    background-position: -567px 0;
+}
+
+.spr-1 {
+    background-image: url(../images/numberspr.png);
+}
+
+.spr-c {
+    background-image: url(../images/spr-c.png);
+}
+
+.spr-ly {
+    background-image: url(../images/spr-ly.png);
+}
+/*全新内容的结束*/
+
+
+/*固定导航部分*/
+.fds {
+    position: fixed;
+    _position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 130px;
+    margin-top: -183px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 100000;
+}
+
+.fds .ewmarea, .fds .ots, .fds .ota, .fds .ewmarea img, .fds .pictips, .fds .app-tit, .fds .app-ifo {
+    display: block;
+    margin: 0 auto;
+}
+
+.fds .ewmarea {
+    margin: 0 0 5px;
+    background: #fff;
+    padding: 4px;
+}
+
+.fds .ewmarea img {
+    width: 122px;
+    height: 122px;
+}
+
+.fds .pictips {
+    background: #ff7900;
+    padding: 10px 0 8px;
+    line-height: 135%;
+    color: #fff;
+}
+
+.fds .app-tit {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fds .app-ifo {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.fds .ots {
+    position: relative;
+    width: 100%;
+    background-color: #440106;
+}
+
+.fds .ota {
+    color: #fff;
+    line-height: 36px;
+}
+
+.fds .ota:hover {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.fds .blk .ota {
+    color: #c2c2c2;
+}
+
+.fds .bds {
+    border-top: 1px solid #414141;
+    border-bottom: 1px solid #414141;
+}
+
+.fds .ent, .fds .dlg {
+    text-indent: 30px;
+}
+
+.fds .ent {
+    background-color: #0099cc;
+}
+
+.fds .dlg {
+    background-color: #e2821a;
+}
+
+/*#cfae69*/
+.fds .totop {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 5px auto 0;
+    background-position: 0 -229px;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+.fds .but {
+    float: none;
+}
+
+.fds .pretag {
+    width: 24px;
+    height: 22px;
+    top: 50%;
+    left: 20px;
+    margin: -11px 0 0;
+}
+
+.fds .ent .pretag {
+    background-position: 0 -83px;
+}
+
+.fds .dlg .pretag {
+    background-position: -95px -83px;
+}
+
+.spr-c {
+    background-image: url(../images/spr-c.png);
+}
+
+.fds .close {
+    background: url("../images/close.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 21px;
+    height: 21px;
+    margin-right: -21px;
+    cursor: pointer;
+}
+
+.pretag {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}

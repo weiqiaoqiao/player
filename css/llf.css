@@ -1,0 +1,179 @@
+.head{
+    width: 100%;
+    background: url(../images/header.jpg) no-repeat 50% 0;
+    height: 1125px;
+}
+.head .logo {
+    top: 63px;
+    left: 89px;
+    width: 155px;
+    height: 55px;
+    background-position: 100% 0;
+    text-indent: -9999px;
+    z-index: 9999;
+    opacity: 0;
+}
+.img-h{
+    background: url("../images/spr-h.png");
+
+}
+.container{
+    height: 1125px;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+.content{
+    padding: 460px 0 0;
+    z-index: 1;
+    position: relative;
+}
+.view {
+    position: absolute;
+    width: 110px;
+    top: 371px;
+    left: 677px;
+    text-align: center;
+    color: #000;
+}
+.view:hover{
+    opacity: 0.9;
+}
+.nav{
+    margin: 0 0 0 80px;
+    width: 526px;
+    height: 100px;
+}
+.but {
+    position: relative;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.nav_l{
+    height: 100px;
+    width: 255px;
+    background: #2fc3a3 url("../images/spr-h.png") no-repeat 50% -385px;
+    margin: 0 16px 0 0;
+}
+.nav_l:hover{
+    background-color: rgb(63,200,170)
+}
+.nav .clk {
+    display: block;
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 26px;
+    line-height: 90px;
+    z-index: 5;
+    position: relative;
+}
+.clk .eng {
+    display: block;
+    margin: -26px 0 0;
+    font-size: 9px;
+    color: #000;
+    opacity: 0.15;
+    line-height: 100%;
+    -webkit-transform: scale(0.7);
+}
+.nav_r{
+    height: 100px;
+    width: 255px;
+    background: rgb(207,174,105) url("../images/spr-h.png") no-repeat 50% -385px;
+}
+.nav_r .clk:hover{
+    background-color: rgba(255,255,255,0.08)
+}
+.tag{
+    position: absolute;
+    display: block;
+    z-index: 1;
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    top: 0;
+    right: 0;
+    width: 78px;
+    height: 78px;
+    background: url("../images/spr-h.png") no-repeat 100% -60px;
+}
+.videoplayer{
+    display: none;
+    position: fixed;
+    _position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 790px;
+    margin: -225px 0 0 -395px;
+    z-index: 9999;
+}
+.videoplayer2{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #000;
+}
+.videoplayer video{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+
+.spr-ly{background-image:url(../images/spr-ly.png);}
+
+.exitlayer{position:absolute;right:-60px;top:0;width:60px;height:60px;line-height:56px;font-size:40px;color:#fff;overflow:hidden;text-align:center;background:#2fc3a2;text-indent:-9999px;text-indent:0\0;*text-indent:0;}
+.exitlayer:hover{opacity:0.95;}
+.exitlayer:before,.exitlayer:after{position:absolute;left:50%;top:50%;margin:0 0 0 -40%;content:"";line-height:0;font-size:0;width:80%;height:1px;background:#fff;overflow:hidden;display:none\0;}
+.exitlayer:before{-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg);}
+.exitlayer:after{-webkit-transform:rotateZ(-45deg);transform:rotateZ(-45deg);}
+
+.eventlayer{display:none;position:fixed;top:50%;left:10%;background:#fff;width:786px;z-index:9996;}
+.eventlayer .tabs{position:relative;background:#101010;height:53px;z-index:5;}
+.eventlayer .taba{position:relative;display:block;float:left;line-height:53px;width:393px;text-align:center;font-weight:bold;color:#a0a0a0;font-size:16px;}
+.eventlayer .cur.taba{background:#2fc3a3;color:#fff;}
+.eventlayer .cur.taba:after{position:absolute;content:"";bottom:-8px;left:50%;margin:0 0 0 -8px;width:0;height:0;border-top:8px solid #2fc3a3;border-left:8px solid transparent;border-right:8px solid transparent;}
+.eventlayer .tabc{position:relative;clear:both;width:100%;height:399px;}
+.eventlayer .tabt,.eventlayer .tabt img{width:100%;height:100%;}
+.eventlayer .tabt{display:none;position:absolute;top:0;left:0;}
+.eventlayer .tabt .linkbtn{display:block;position:absolute;top:0;left:0;width:196px;height:100%;text-indent:-9999px;background-image:url(images/blank.png);}
+.eventlayer .tabt .linkbtn-2{left:196px;}
+.eventlayer .tabt .linkbtn-3{left:392px;}
+.eventlayer .tabt .linkbtn-4{left:588px;}
+.eventlayer .tabt h4{font-size:18px;font-weight:bold;color:#2fc3a3;text-align:center;line-height:35px;padding:10px 0 0;}
+.eventlayer .tabt .giftlists{padding:0 20px;}
+.eventlayer .tabt .gifttable{width:100%;text-align:center;}
+.eventlayer .innergifttable{width:100%;font-size:13px;line-height:28px;}
+.eventlayer .innergifttable th{color:#fff;background:#ff8f17;}
+.eventlayer .innergifttable td{background:#f8f2e6;border-bottom:1px solid #e1dacc;}
+.eventlayer .linelist{padding:0 20px;margin:20px 0 0;font-size:13px;}
+.eventlayer .linelist .ls{margin:3px 0;background:#f8f2e6;line-height:33px;}
+.eventlayer .linelist .ls b,.eventlayer .linelist .ls em{display:inline-block;}
+.eventlayer .linelist .ls b{width:90px;text-align:center;background:#ff8f17;color:#fff;margin:0 20px 0 0;}
+.eventlayer .linelist .ls em{width:125px;}
+.eventlayer .linelist .ls .money{width:80px;}
+.eventlayer .spctabt{background:url(../images/ly-3.jpg) no-repeat 50% 50%;}
+.eventlayer .todlgame{display:block;text-align:center;font-size:30px;height:89px;background-position:0 100%;font-weight:bold;line-height:220%;overflow:hidden;}
+.eventlayer .todlgame .stips{display:block;font-size:16px;color:#2b1c1c;line-height:100%;margin:-10px 0 0;cursor:pointer;}
+.eventlayer .exitlayer{top:45px;background:none;}
+
+.svslist{padding:50px 0 0 90px;overflow:hidden;}
+.svslist .svs{position:relative;float:left;margin:20px 40px 0 0;width:174px;height:74px;background-position:0 -28px;text-align:center;}
+.svslist .are{display:block;font-size:22px;color:#fff;font-weight:bold;line-height:60px;height:100%;overflow:hidden;}
+.svslist .svn{display:block;line-height:100%;margin:-15px 0 0 ;font-weight:normal;color:#101010;font-size:13px;}
+.svslist .tag{display:block;width:26px;height:28px;top:-10px;left:-8px;text-indent:-9999px;}
+.svslist .new{background-position:0 0;}
+.svslist .hot{background-position:-148px 0;}
+.svslist .wait{width:52px;height:52px;background-position:-179px 0;top:-1px;left:-1px;}
+
+

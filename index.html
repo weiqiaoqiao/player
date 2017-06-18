@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天涯明月刀-官方网站-腾讯游戏-电影网游新艺术，这就是武侠</title>
+    <style>
+        .container1T{
+            width: 100%;
+            height: 650px;
+            background:url("images/p-3.jpg") no-repeat 50% 100%;;
+        }
+        .container1{
+            width: 1000px;
+            background-color: #fff;
+            padding-top: 50px;
+            margin: 0 auto;
+            text-align: left;
+            overflow: hidden;
+
+        }
+        .downNav{
+            padding-top: 40px;
+        }
+        .downNav .dnetbut, .downNav .dndlbut {
+            width: 495px;
+            height: 137px;
+            line-height: 137px;
+            position: relative;
+            /*background-position: 0 -278px;*/
+            font-size: 40px;
+            text-indent: 85px;
+            float: left;
+            background: url("images/spr-c.png") 0 -278px no-repeat;
+        }
+        .downNav .dnetbut {
+            background-color: #2fc3a3;
+            margin: 0 10px 0 0;
+        }
+        .downNav .dndlbut {
+            background-color: #cfae69;
+        }
+        .downNav .pretag {
+            position: absolute;
+            float: left;
+            width: 70px;
+            height: 60px;
+            top: 50%;
+            left: 120px;
+            margin: -30px 0 0;
+            background: url("images/spr-c.png") 4px 0 no-repeat;
+        }
+        .downNav .dndlbut  .pretag{
+            background-position: -97px 0;
+        }
+        .downNav .clk {
+            position: relative;
+            display: block;
+            width: 100%;
+            color: #fff;
+            height: 100%;
+            font-weight: bold;
+            overflow: hidden;
+            z-index: 5;
+            text-align: center;
+        }
+        .downNav .clk:hover {
+            background-color: rgba(255, 255, 255, .08);
+        }
+        .downNav .dnguide,.downNav .dnevent,.downNav .dnbackground,.downNav .dnsiteweb{
+            float: left;
+            width: 240px;
+            height: 90px;
+            line-height: 90px;
+            background-color: #2c2c2c;
+            font-size: 22px;
+            margin: 15px 0 0;
+        }
+        .downNav .dnguide .clk,.downNav .dnevent .clk,.downNav .dnbackground .clk,.downNav .dnsiteweb .clk{
+            color: #cdcdcd;
+        }
+        .downNav .dnguide,.downNav .dnbackground{
+            margin-right: 15px;
+        }
+        .downNav .dnevent{
+            margin-right: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/llf.css"/>
+    <link rel="stylesheet" href="css/lwj.css"/>
+    <link rel="stylesheet" href="css/sakurafall.css"/>
+    <link rel="stylesheet" href="css/cz.css"/>
+    <link rel="stylesheet" href="css/xm.css"/>
+    <link rel="stylesheet" href="css/qzh.css"/>
+    <link rel="stylesheet" href="css/wqq.css"/>
+    <link rel="stylesheet" href="css/qq_register.css"/>
+
+    <!--<link rel="stylesheet" href="css/yxy.css"/>-->
+    <link rel="stylesheet" href="css/foot.css"/>
+
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/llf.js"></script>
+    <script src="js/sakurafall.js"></script>
+    <script src="js/lunbotu.js"></script>
+    <script src="js/index.js"></script>
+
+
+</head>
+<body>
+<!--顶部---s==xm-->
+
+<div class="ost_box ost_bg " id="ost_box">
+    <ul class="ost_inner ost_lsn">
+        <li class="ost_logo ost_h40 ost_fl ost_bg">
+            <a href="#" class="ost_blnk ost_hdn" title="腾讯游戏logo" id="dlQQ"></a>
+        </li>
+        <li  id="ost_g" class="ost_ad ost_h40 ost_fl">
+            <img class="ost_nb" id="ost_go" src="images/zjl.jpg" alt style="display: block;"/>
+        </li>
+        <!--<li class="ost_total ost_ml10 ost_fr">-->
+            <!--<h3 class="ost_czsh ost_h40">-->
+                <!--<a target="_blank" href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbanner">成长守护平台</a>-->
+            <!--</h3>-->
+            <!--<h3 class="ost_title ost_h40" id="ost_t">-->
+                <!--腾讯游戏排行榜-->
+                <!--<i class="ost_icon_arrow ost_bg"></i>-->
+                <!--<sup class="ost_icon_reddot" id="ost_rank_v"></sup>-->
+            <!--</h3>-->
+            <!--<div class="ost_pop" id="ost_p" style="display: none;"><iframe id="gameRank" name="gameRank" allowtransparency="true" style="background:transparent;" src="" width="700" height="465" frameborder="0" scrolling="no"></iframe>-->
+
+            <!--</div>-->
+        <!--</li>-->
+    </ul>
+    <div id="ost_d"  class="ost_big" style="display: none">
+        <a href="#">
+            <img src="images/zjl_1.jpg" alt=""/>
+        </a>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('#ost_g').on('mouseenter',function(){
+            $('#ost_d').css('display','block')
+        });
+        $('#ost_d').on('mouseleave',function(){
+            $(this).hide();
+        });
+        $('#dlQQ').on('click',function(){
+            $('#ovevlay,#login').css('display','block');
+        })
+    });
+
+</script>
+<!--顶部---e==xm-->
+<div class="head">
+    <strong id="dao" class="pa logo img-h">天涯明月刀</strong>
+    <div class="container">
+        <div class="content">
+            <a class="view" id="view" href="javascript:;">
+                <img src="images/vd20170524.png" alt="最新版本视频"/>
+            </a>
+            <div class="nav">
+                <div class="nav_l but">
+                    <a class="clk" href="//baidu.com" target="_blank">进入官网
+                        <em class="eng">ENTER SITE</em>
+                    </a>
+                </div>
+                <div class="nav_r but">
+                    <a class="clk" id="clk" href="javascript:;" target="_blank">下载客户端
+                        <em class="eng">DOWNLOAD</em>
+                    </a>
+                    <i class="tag">极速下载</i>
+                </div>
+            </div>
+            <!-- 程正-->
+            <div class="eventsbox">
+                <div class="haslybox boxes">
+                    <a href="javascript:openMiniLoad('giftlayer');" onclick="pgvSendClick({hottag:'wuxia.index.head.eventlayer'});"><img alt="新手礼包" src="images/b20160929-1.jpg"></a></div>
+                <div class="haslybox boxes">
+                    <a href="javascript:openMiniLoad('eventlayer');" onclick="pgvSendClick({hottag:'wuxia.index.head.evspc'});"><img alt="重点活动" src="images/b20160929-2.jpg"></a></div>
+                <div id="box" class="all">
+                    <div class="ad">
+                        <ul id="imgs">
+                            <li><img src="images/1491983010.jpg" width='312' height='280' alt=""/></li>
+                            <li><img src="images/1495181742.jpg" width='312' height='280' alt=""/></li>
+                            <li><img src="images/1495614039.jpg" width='312' height='280' alt=""/></li>
+                            <li><img src="images/1495704336.jpg" width='312' height='280' alt=""/></li>
+                        </ul>
+                        <ol></ol>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- end-->
+            <!--廖文骏-->
+            <ul class="otherlists">
+                <li class="ols f">
+                    <p class="other-ct"><strong class="other-tit">新手指南</strong><em class="other-info">玩转天涯不用愁</em><i
+                            class="sc pa spr-h"></i><i class="bc pa spr-h"></i></p>
+                    <a class="other-lk" href="//wuxia.qq.com/guide/" onclick="return false" target="_blank">前往查看</a>
+                </li>
+                <li class="ols s">
+                    <p class="other-ct"><strong class="other-tit">游戏特色</strong><em class="other-info">天涯明月真江湖</em><i
+                            class="sc pa spr-h"></i><i class="bc pa spr-h"></i></p>
+                    <a class="other-lk" href="//wuxia.qq.com/gamedata/features/" onclick="return false" target="_blank">前往查看</a>
+                </li>
+                <li class="ols t">
+                    <p class="other-ct"><strong class="other-tit">活动中心</strong><em class="other-info">礼包福利一网打尽</em><i
+                            class="sc pa spr-h"></i><i class="bc pa spr-h"></i></p>
+                    <a class="other-lk" href="//wuxia.qq.com/events.shtml" onclick="return false" target="_blank">前往查看</a>
+                </li>
+                <li class="ols u">
+                    <p class="other-ct"><strong class="other-tit">设定站</strong><em class="other-info">你不知道的天刀</em><i
+                            class="sc pa spr-h"></i><i class="bc pa spr-h"></i></p>
+                    <a class="other-lk" href="//wuxia.qq.com/act/a20141219sdmh/" onclick="return false" target="_blank">前往查看</a>
+                </li>
+            </ul>
+            <!--end-->
+
+        </div>
+    </div>
+</div>
+<div class="videoplayer" id="vplayer">
+    <div class="videoplayer2">
+        <video id="videos" controls="controls"  src="videos/h0023ym7e5t.m1.mp4">
+            <!--<source  type="video/mp4"></source>-->
+        </video>
+        <a id="exit" href="javascript:;" class="exitlayer">×</a>
+    </div>
+</div>
+
+
+
+<div class="eventlayer" id="eventlayer">
+    <div class="tabs"><a class="taba" id="taba_l" href="javascript:;">特色玩法成长助力</a><a id="taba_r" class="taba" href="javascript:;">推荐服务器</a></div>
+    <div class="tabc">
+        <div id="tabc_1" class="tabt">
+            <a><img src="images/news20160929.jpg"></a>
+            <a class="linkbtn linkbtn-1" href="javascript:;" target="_blank">快速升级</a>
+            <a class="linkbtn linkbtn-2" href="javascript:;" target="_blank">版本专题</a>
+            <a class="linkbtn linkbtn-3" href="javascript:;" target="_blank">设定专题</a>
+            <a class="linkbtn linkbtn-4" href="javascript:;" target="_blank">活动升级</a>
+        </div>
+        <div id="tabc_2" class="tabt spctabt">
+            <ul class="svslist">
+                <li class="svs spr-ly"><a class="are">瞬芳华<em class="svn">天命风流</em></a><i class="pa tag spr-ly new">新</i></li>
+                <li class="svs spr-ly"><a class="are">寒梅雪<em class="svn">天命风流</em></a><i class="pa tag spr-ly new">新</i></li>
+                <li class="svs spr-ly"><a class="are">醉千山<em class="svn">天命风流</em></a><i class="pa tag spr-ly new">新</i></li>
+                <li class="svs spr-ly"><a class="are">锦鲤抄<em class="svn">天命风流</em></a></li>
+                <li class="svs spr-ly"><a class="are">千秋月<em class="svn">天命风流</em></a></li>
+                <li class="svs spr-ly"><a class="are">枯叶蝶<em class="svn">天命风流</em></a></li>
+                <li class="svs spr-ly"><a class="are">如梦令<em class="svn">天命风流</em></a></li>
+                <li class="svs spr-ly"><a class="are">秦淮夜<em class="svn">天命风流</em></a></li>
+            </ul>
+        </div>
+    </div>
+    <a data-dlnatural="http_link" class="todlgame spr-ly" href="javascript:;">无需注册 极速下载<em class="stips">QQ账号直接登录</em></a>
+    <a id="close" href="javascript:;" class="exitlayer">×</a>
+</div>
+<div id="_overlay_"  style="background-color: rgb(17, 17, 17); border-top: 1px solid rgb(17, 17, 17); position: absolute; height: 3088px; z-index: 9998; width: 100%; left: 0px; top: 0px; opacity: 0.7;display: none"></div>
+<!--全新内容区-->
+<div class="part feat">
+    <div class="container">
+        <h2><i class="eng">RECOMMENDED</i><s>全新内容</s> <span class="spc-color ">精彩呈现</span></h2>
+        <ul class="reclist">
+            <li class="rls ft1">
+                <span class="gbg pa"></span><i class="bc pa spr-1"></i>
+
+                <h3 class="pa">全新门派<br>神刀开放</h3><span class="view pa">查看详情</span>
+                <a class="pa rec-btn" href="//wuxia.qq.com/act/a20160616shendao/index.htm#Item1"
+                   onclick="pgvSendClick({hottag:'wuxia.index.feat160626.ft1'});" target="_blank">查看详情</a>
+            </li>
+            <li class="rls ft2">
+                <span class="gbg pa"></span><i class="bc pa spr-1"></i>
+
+                <h3 class="pa">全新玩法<br>高阶体验</h3><span class="view pa">查看详情</span>
+                <a class="pa rec-btn" href="//wuxia.qq.com/act/a20160616shendao/index.htm#Item2"
+                   onclick="pgvSendClick({hottag:'wuxia.index.feat160626.ft2'});" target="_blank">查看详情</a>
+            </li>
+            <li class="rls ft3">
+                <span class="gbg pa"></span><i class="bc pa spr-1"></i>
+
+                <h3 class="pa">巴蜀剧情<br>一触即发</h3><span class="view pa">查看详情</span>
+                <a class="pa rec-btn" href="//wuxia.qq.com/act/a20160616shendao/index.htm#Item4"
+                   onclick="pgvSendClick({hottag:'wuxia.index.feat160626.ft3'});" target="_blank">查看详情</a>
+            </li>
+            <li class="rls ft4">
+                <span class="gbg pa"></span><i class="bc pa spr-1"></i>
+
+                <h3 class="pa">等级突破<br>成长加速</h3><span class="view pa">查看详情</span>
+                <a class="pa rec-btn" href="//wuxia.qq.com/act/a20160616shendao/index.htm#Item3"
+                   onclick="pgvSendClick({hottag:'wuxia.index.feat160626.ft4'});" target="_blank">查看详情</a>
+            </li>
+            <li class="rls ft5">
+                <span class="gbg pa"></span><i class="bc pa spr-1"></i>
+
+                <h3 class="pa">全新大区<br>天命风流</h3><span class="view pa">查看详情</span>
+                <a class="pa rec-btn" href="//wuxia.qq.com/act/a20160616shendao/index.htm#Item5"
+                   onclick="pgvSendClick({hottag:'wuxia.index.feat160626.ft5'});" target="_blank">查看详情</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="fds" id="fds">
+    <strong class="pictips">
+        <b class="app-tit">下载天刀官方助手</b>
+        <i class="app-ifo">领取50万修为</i>
+    </strong>
+    <span class="ewmarea">
+        <img alt="天刀助手二维码" src="images/wuxia-app-for-android.png" id="ewm1">
+    </span>
+    <span class="but ots blk">
+        <a href="javascript:window.scrollTo(0,500);" class="ota">01&nbsp;精彩活动</a>
+    </span>
+    <span class="but ots blk bds">
+        <a href="javascript:window.scrollTo(0,1166);" class="ota">02&nbsp;版本内容</a>
+    </span>
+    <span class="but ots blk">
+        <a href="javascript:window.scrollTo(0,1680);" class="ota">03&nbsp;八荒门派</a>
+    </span>
+    <span class="but ots ent">
+        <a href="//wuxia.qq.com/main.shtml" class="ota" onclick="pgvSendClick({hottag:'wuxia.index.fds.enter'});"
+           target="_blank">进入官网</a>
+        <sup class="spr-c pretag"></sup>
+    </span>
+    <span class="but ots dlg">
+        <a href="javascript:openMiniLoad('eventlayer');" class="ota"
+           onclick="pgvSendClick({hottag:'wuxia.index.fds.dlgame'});" target="_blank">游戏下载</a>
+        <sup class="spr-c pretag"></sup>
+    </span>
+    <a class="totop spr-c" href="javascript:window.scrollTo(0,0);">Top</a>
+    <span class="close"></span>
+</div>
+<!--全新内容区--s-->
+<!--四海八荒---s-->
+<div class="bigBox">
+    <div class="bt">
+        <h2><i class="eng">RECOMMENDED</i>八荒门派
+            <span class="spa">各有主张</span>
+        </h2>
+    </div>
+
+    <div class="wrap">
+        <div class="item box">
+            <div class="item-small">
+                <img src="images/uts-8.jpg" alt="">
+            </div>
+            <div class="item-big shendao">
+                <div class="cotpart">
+                    <h3>神刀
+                        <em class="pa spr-2 tag"></em>
+                    </h3>
+                    <p class="mp-tw">刀含杀气腾幽朔，萧飒寒芒泣鬼神</p>
+                    <p class="mp-yw">长刀掠世，雄鹰相随，勇者初心无惧，仁者自可无敌。神刀乃傅红雪叶开所在之门派，江湖中第一用刀之门派，亦是八荒中最为特立独行、潇洒率性之门派...</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="nos"></i>
+                    </p>
+                    <p class="more">
+                        <a class="morer" href="licheng/indexlc.html">
+                            查看更多
+                            <i>+</i>
+                        </a>
+                    </p>
+                    <div class="mp-role"></div>
+                </div>
+                <img src="images/shendao.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-1.jpg" alt="">
+            </div>
+            <div class="item-big taibai">
+                <div class="cotpart">
+                    <h3>太白<em class="pa spr-2 tag"></em>
+                    </h3><p class="mp-tw">流星白羽光出匣，一剑无痕雪漫山</p>
+                    <p class="mp-yw">风无痕本是开封府司录司参军事，负责协助捕门之人，利用强大的分析能力来推理查案。在多年的查案之中，风无痕因偶然机会获取本被认为是医书的《破穴论》...</p><p class="mp-level">
+                    <b>操作难度</b>
+                    <i class="has"></i>
+                    <i class="has"></i>
+                    <i class="has"></i>
+                    <i class="has"></i>
+                    <i class="nos"></i>
+                </p><p class="more">
+                    <a class="morer" href="#">查看更多<i>+</i></a>
+                </p><div class="mp-role"></div>
+                </div>
+                <img src="images/taibai.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-2.jpg" alt="">
+            </div>
+            <div class="item-big shenwei">
+                <div class="cotpart"><h3>神威<em class="pa spr-2 tag"></em></h3>
+                    <p class="mp-tw">神威倒卷翻空浪，一举冲霄气势雄</p>
+                    <p class="mp-yw">后周副都指挥使韩通于954年创立“神威营”，忠诚守护后周皇室安全。韩通之子韩微，曾几次劝说父亲除去后周重臣赵匡胤，但韩通却欣赏赵匡胤之人才气度...</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="nos"></i>
+                        <i class="nos"></i>
+                    </p>
+                    <p class="more"><a class="morer" href="#">查看更多<i>+</i></a>
+                    </p><div class="mp-role"></div>
+                </div>
+                <img src="images/shenwei.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-3.jpg" alt="">
+            </div>
+            <div class="item-big tangmen">
+                <div class="cotpart"><h3>唐门<em class="pa spr-2 tag"></em></h3>
+                    <p class="mp-tw">雾霭云从飞星落，半影相依扇中情</p>
+                    <p class="mp-yw">蜀中唐氏，自魏晋起便为世家。五代十国之时，唐门少主唐郢化名卢郢，游历江南，更是进士及第，成为南唐的文武双进士，天下闻名...</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                    </p><p class="more">
+                        <a class="morer" href="#">查看更多<i>+</i></a>
+                    </p><div class="mp-role"></div>
+                </div>
+                <img src="images/tangmen.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-4.jpg" alt="">
+            </div>
+            <div class="item-big wudu">
+                <div class="cotpart"><h3>五毒<em class="pa spr-2 tag"></em></h3>
+                    <p class="mp-tw">动游碧落心无碍，静藏深渊迹绝踪</p>
+                    <p class="mp-yw">地处云滇的五毒与中原诸派均有所不同，其武学以狠、诡、毒、快为要诀，以诡秘凌厉的刀法配合神鬼莫测的身法，可谓是举手之间、取人性命；轻烟散尽、乃见五毒。</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                    </p>
+                    <p class="more">
+                        <a class="morer" href="#">查看更多<i>+</i></a>
+                    </p><div class="mp-role"></div>
+                </div>
+                <img src="images/wudu.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-5.jpg" alt="">
+            </div>
+            <div class="item-big tianxiang">
+                <div class="cotpart"><h3>天香<em class="pa spr-2 tag"></em></h3>
+                    <p class="mp-tw">竞夸天下双无绝，独立人间第一香</p>
+                    <p class="mp-yw">华佗当年被处死之前，将其一生所学著为《青囊书》一卷。数百年后，少年桑柴子偶得此书，修习医术，其第一个救下之人，便是官宦千金员外之女...</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="nos"></i>
+                        <i class="nos"></i>
+                    </p><p class="more">
+                        <a class="morer" href="#" >查看更多<i>+</i></a>
+                    </p><div class="mp-role"></div>
+                </div>
+                <img src="images/tianxiang.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-6.jpg" alt="">
+            </div>
+            <div class="item-big zhenwu">
+                <div class="cotpart"><h3>真武<em class="pa spr-2 tag"></em></h3>
+                    <p class="mp-tw">灵妙潜通乘风起，太极玄虚若镜清</p>
+                    <p class="mp-yw">真武祖师张梦白本是书香门第出身，屡试不中时竟在襄州山中偶遇一似癫似疯之道人扶摇子。得其点化，张梦白以文入武，更习得驱影之术...</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="nos"></i>
+                    </p>
+                    <p class="more"><a class="morer" href="#">查看更多<i>+</i></a>
+                    </p><div class="mp-role"></div>
+                </div>
+                <img src="images/zhenwu.png" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-small">
+                <img src="images/uts-7.jpg" alt="">
+            </div>
+            <div class="item-big gaibang">
+                <div class="cotpart">
+                    <h3>丐帮
+                        <em class="pa spr-2 tag"></em>
+                    </h3>
+                    <p class="mp-tw">醉来豪气不可收，嘘作长虹贯牛斗</p>
+                    <p class="mp-yw">丐帮最早的源流可追溯到春秋时期，但正式作为一个门派存在于江湖之中，则是从唐末开始。黄巢起义中，某金姓将领因不满义军暴虐残害百姓...</p>
+                    <p class="mp-level">
+                        <b>操作难度</b>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="has"></i>
+                        <i class="nos"></i>
+                    </p>
+                    <p class="more">
+                        <a class="morer" href="#">查看更多<i>+</i></a>
+                    </p>
+                    <div class="mp-role"></div>
+                </div>
+                <img src="images/gaibang.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--四海八荒---e-->
+<!--菜单--s-->
+<div class="container1T">
+    <div class="container1">
+        <div class="downNav">
+            <span class="dnetbut"><a href="#" class="clk">进入官网</a><i class="pretag"></i></span>
+            <span class="dndlbut"><a href="#" class="clk">游戏下载</a><i class="pretag"></i></span>
+            <span class="dnguide"><a href="#" class="clk">新手指南</a></span>
+            <span class="dnevent"><a href="#" class="clk">活动中心</a></span>
+            <span class="dnbackground"><a href="#" class="clk">世界背景</a></span>
+            <span class="dnsiteweb"><a href="#" class="clk">逍遥客栈</a></span>
+        </div>
+    </div>
+</div>
+
+<!--菜单--e-->
+<!--底部--s-->
+<div id="footer_ied" class="footer_ied">
+    <div class="wrap_logo"><a class="tg" title="腾讯互动娱乐" target="_blank" href="//ieg.tencent.com/">腾讯互动娱乐</a></div>
+    <div class="wrap_ied"><p class="flks"><a target="_blank" href="//ieg.tencent.com/">腾讯互动娱乐</a> <i>|</i> <a
+            target="_blank" href="//game.qq.com/contract.shtml">服务条款</a> <i>|</i> <a target="_blank"
+                                                                                     href="//adver.qq.com/">广告服务</a> <i>|</i>
+        <a target="_blank" href="//game.qq.com/hr/">腾讯游戏招聘</a> <i>|</i> <a target="_blank" href="//service.qq.com/">腾讯游戏客服</a>
+        <i>|</i> <a target="_blank" href="//game.qq.com/gnav/">游戏地图</a> <i>|</i> <a target="_blank"
+                                                                                    href="//tgact.qq.com/?g=wuxia">游戏活动</a>
+        <i>|</i> <a target="_blank" href="//game.qq.com/brand/business.htm">商务合作</a> <i>|</i> <a target="_blank"
+                                                                                                 href="//www.qq.com/map/">网站导航</a>
+    </p>
+
+        <p class="ftce">COPYRIGHT &copy; 2012 &ndash; 2017 TENCENT. ALL RIGHTS RESERVED.</p>
+
+        <p class="ftcc"><a target="_blank" href="//www.tencent.com/law/mo_law.shtml?/law/copyright.htm">腾讯公司 版权所有</a>
+        </p>
+
+        <p class="ftot">
+            <!-- <a class="baqz" href="//sq.ccm.gov.cn/ccnt/sczr/service/business/emark/gameNetTag/4028c08b4b5360f7014b537036aa032d" target="_blank">网络备案</a> --><span
+                class="nmqz">ISBN 978-7-89988-341-9</span><i>|</i><a
+                href="javascript:;"
+                class="nmqz" target="_blank">文网游备字[2015]C-RPG0199号</a><br><a class="nmqz"
+                                                                             href="//www.qq.com/culture.shtml"
+                                                                             target="_blank">粤网文[2014]0633-233号</a><i>|</i><span
+                class="nmqz" target="_blank">新广出审[2015]605号</span><i>|</i><a class="nmqz"
+                                                                             href="//game.qq.com/culture2.htm"
+                                                                             target="_blank">新出网证(粤)字010号</a></p></div>
+</div>
+<!--底部--e-->
+
+<div id="ovevlay" style="display: none"></div>
+<div id="login" class="login" style="display: none">
+    <div class="header">
+        <a class="close" id="close1" href="javascript:void(0);" title="关闭"></a>
+    </div>
+    <div class="one">
+        <div class="tips">
+            <div class="title">账号密码登录</div>
+            <div id="qlogin_entry">推荐使用<a href="#" class="switcher_qlogin" id="th2">快速安全登录</a>，防止盗号。</div>
+        </div>
+        <div class="login_form">
+            <form action="#">
+                <div class="inputOuter">
+                    <label class="input_tips" id="uin_tips" for="u" data-onlyqq="QQ号码" style="display: block;">支持QQ号/邮箱/手机号登录</label>
+                    <input type="text" class="inputstyle"/>
+                    <a class="uin_del" id="uin_del" href="javascript:void(0);" style="display: none;"></a>
+                </div>
+                <div class="inputOuter">
+                    <label class="input_tips" id="pwd_tips" style="display: block;">密码</label>
+                    <input type="password" class="inputstyle"/>
+                </div>
+                <div class="submit">
+                    <a class="login_button" href="javascript:void(0);">
+                        <input type="submit" value="登 录" class="btn" id="login_button">
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="bottom">
+            <a href="#" class="link">忘了密码?</a>
+            <span class="dotted">|</span>
+            <a href="#" class="link">注册新账号</a>
+            <span class="dotted">|</span>
+            <a href="#" class="link">意见反馈</a>
+        </div>
+    </div>
+    <div class="one" style="display: none">
+        <div class="tips">
+            <div class="title">快速安全登录</div>
+            <div>请使用<a href="#" class="switcher_qlogin">QQ手机版</a>扫描二维码,<br/>安全登录,防止盗号</div>
+        </div>
+        <div class="qlogin_list">
+        <span class="qr_0">
+          <img src="images/ptqrshow.png" alt="" class="qrImg" id="qrImg"/>
+        </span>
+        </div>
+        <!-- 二维码手机-->
+        <div class="qr_tips" id="qr_tips" style="display: none">
+            <div class="qr_tips_pic"></div>
+        </div>
+        <div class="bottom">
+            <a href="#" class="link" id = "th1">账户密码登录</a>
+            <span class="dotted">|</span>
+            <a href="#" class="link">注册新账号</a>
+            <span class="dotted">|</span>
+            <a href="#" class="link">意见反馈</a>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+//      $('#qrImg').hover(function(){
+//        $(this).stop().animate({
+//          "left":-0
+//        },500);
+//        $("#qr_tips").fadeIn();
+//        setTimeout(function(){
+//          $("#qr_tips").stop().fadeOut();
+//          $(this).animate({
+//            "left":75
+//          },1000);
+//        },3000)
+//      },function(){
+//        $("#qr_tips").fadeOut();
+//        $(this).stop().animate({
+//          "left":75
+//        },1000);
+//      })
+        var timer
+        $('#qrImg').on('mouseenter',function(){
+            clearTimeout(timer);
+            $(this).stop().animate({
+                "left":10
+            },300);
+            $("#qr_tips").stop().fadeIn();
+            timer = setTimeout(function(){
+                $("#qr_tips").stop().fadeOut(500);
+                setTimeout(function(){
+                    $('#qrImg').stop().animate({
+                        "left":75
+                    },300);
+                },300)
+            },3000)
+        });
+        $('#qrImg').on('mouseleave',function(){
+            clearTimeout(timer)
+            $("#qr_tips").stop().fadeOut(500);
+            timer = setTimeout(function(){
+                $('#qrImg').stop().animate({
+                    "left":75
+                },300);
+            },300)
+        });
+        $("#th1").on('click',function(){
+            $(this).parent().parent().hide().siblings().show()
+        });
+        $('#th2').on('click',function(){
+            $(this).parent().parent().parent().hide().siblings().show()
+        })
+        $('.inputOuter input').on('focus',function(){
+            $(this).parent().css('backgroundPosition',"-1px -45px").find('label').css('color','#ddd')
+            $(this).on('keydown',function(){
+                $(this).parent().find('label').css('display','none')
+            });
+            $(this).on('keyup',function(){
+                $(this).parent().find('a').css('display','block');
+            });
+        });
+        $('.inputOuter input').on('blur',function(){
+            $(this).parent().css('backgroundPosition',"-1px -1px").find('label').css('color','#aaa')
+            if($(this).attr('type')=="text"){
+                if($(this).val().trim()==''){
+                    $(this).parent().find('label').show().html("支持QQ号/邮箱/手机号登录");
+                    $(this).parent().find('a').hide();
+                }else{
+                    $(this).parent().find('label').val($(this).parent().find('label').val())
+                }
+            }else{
+                if($(this).val().trim()==''){
+                    $(this).parent().find('label').show().html('密码')
+                }else{
+                    $(this).parent().find('label').val($(this).parent().find('label').val())
+                }
+            }
+        });
+        $('#uin_del').on('click',function(){
+            $(this).parent().find('input').val('').focus();
+            $(this).parent().find('label').show().html("支持QQ号/邮箱/手机号登录");
+            $(this).parent().find('a').hide();
+
+        });
+        $('#close1').on('click',function(){
+            $('#ovevlay,#login').css('display','none')
+        })
+    })
+</script>
+
+
+</body>
+</html>

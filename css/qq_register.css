@@ -1,0 +1,207 @@
+/**/
+#ovevlay{
+    background-color: rgb(230, 245, 255);
+    border-top: 1px solid rgb(230, 245, 255);
+    position: absolute;
+    height: 4100px;
+    z-index: 100001;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+    display: block;
+}
+.login{
+    width: 618px;
+    height: 368px;
+    background-color: #fff;
+    border: 2px solid #eee;
+    position: fixed;
+    z-index: 100003;
+    left: 50%;
+    top: 200px;
+    margin-left: -300px;
+
+}
+
+.header {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+.header .close {
+    width: 47px;
+    height: 20px;
+    float: right;
+    background: url("../images/icon_3.png") -221px -126px no-repeat;
+}
+
+.header .close:hover{
+    background: url("../images/icon_3.png") -221px -151px no-repeat;
+}
+/*¶¥²¿ÎÄ×Ö*/
+.login .tips{
+    background: url("");
+    position: relative;
+    margin: 25px auto 36px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+.login .tips .title{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 16px
+}
+.login .tips .switcher_qlogin{
+    color: #3481cf;
+}
+.login .tips .switcher_qlogin:hover{
+    text-decoration: underline;
+}
+
+/*ÓÃ»§Ãû*/
+.login .login_form {
+    width: 272px;
+    margin: 0 auto
+}
+.login_form .inputOuter{
+    position: relative;
+    width: 272px;
+    height: 42px;
+    background: url("../images/icon_3.png") -1px -1px no-repeat;;
+    margin-bottom: 13px;
+}
+
+.login .login_form .inputstyle {
+    width: 258px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    height: 18px;
+    padding: 10px 0 10px 10px;
+    line-height: 18px;
+    border: none;
+    background: 0 0;
+    color: #333;
+    font-family: Verdana, Tahoma, Arial;
+    font-size: 16px
+
+}
+.login .login_form .input_tips, .web_login .input_tips_focus {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaa;
+    cursor: text
+}
+.login .login_form .uin_del {
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: url("../images/icon_3.png") -116px -160px no-repeat;
+    /*display: none*/
+}
+.login .login_form .uin_del:hover {
+    background-position: -139px -160px
+}
+/*µÇÂ¼°´Å¥*/
+.login .submit {
+    position: relative;
+    height: 40px;
+
+    background-color: #86ce2f
+}
+.login .login_button {
+    position: absolute;
+    left: 0;
+    outline: 0;
+    width: 100%
+}
+.login .login_button .btn {
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ", SimHei, "ºÚÌå", "Hiragino Sans GB", STHeiTi, sans-serif;
+    color: #fff;
+    background: 0 0;
+    cursor: pointer
+}
+/*µ×²¿*/
+.login .bottom{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    margin-bottom: 8px;
+    text-align: right;
+    height: 16px;
+    font-size: 12px;
+}
+.login .bottom .dotted{
+    color: #bfbfbf;
+    margin: 0 5px;
+
+}
+.login .bottom .link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/*¶þÎ¬ÂëµÇÂ¼Ò³Ãæ*/
+.login .qlogin_list{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    margin-left: -150px;
+
+}
+.login .qlogin_list .qr_0{
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+.login .qlogin_list .qrImg{
+    border: 1px solid #D3D3D3;
+    width: 130px;
+    height: 130px;
+    z-index:1000;
+
+    margin-left: -65px;
+    position: absolute;
+}
+/*¶þÎ¬ÂëÊÖ»ú*/
+.login .qr_tips{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 300px;
+    width: 160px;
+    margin-top: -70px;
+    margin-left: 12px;
+    z-index:1999;
+}
+.qr_tips .qr_tips_pic{
+    background: url("../images/small_24_tiny.png") no-repeat;
+    height: 100%;
+}
+
+
+
+
